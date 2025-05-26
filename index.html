@@ -33,13 +33,66 @@
             </div>
         </nav>
     </header>
-    <h1 class ="titles"> Iván Almestro </h1>
-    <h4 class ="titles">Full Stack Developer</h4>
 
-    <div class ="myFoto"><img src="img/foto.jpeg" id="img-personal"></div>
-    <a href="Ivan_Almestro_CV.pdf" class="btn btn-primary" id ="btn-cv" download>Descargar CV</a>
+    <section class="presentation">
+        <div class="img-social">
+
+            <div class="social-links">
+                <a href="https://github.com/IvanAlmestro" target="_blank">
+                    <img src="img/github.svg" alt="GitHub">
+                </a>
+                <a href="https://linkedin.com/in/IvanAlmestro" target="_blank">
+                    <img src="img/linkedin.svg" alt="LinkedIn">
+                </a>
+            </div>
+
+            <a href="Ivan_Almestro_CV.pdf" class="btn btn-primary" id="btn-cv" download>Descargar CV</a>
+            <!--Codigo para la caja de codigo con skills -->
+            <div class="code-box">
+
+                <div class="window-buttons">
+                    <span class="red"></span>
+                    <span class="yellow"></span>
+                    <span class="green"></span>
+                    <div class="code-title">developer.js</div>
+                </div>
+
+                <div class="code">
+
+            <pre class="box-skill"><span class="keyword">const</span> <span class="code-variable">developer</span> = &#123;
+              <span class="property">frontend</span>: [
+                <span class="string">"JavaScript"</span>, <span class="string">"React"</span>, <span class="string">"Angular"</span>,
+                <span class="string">"TypeScript"</span>, <span class="string">"SCSS"</span>, <span class="string">"CSS"</span>, <span class="string">"HTML"</span>
+              ],
+              <span class="property">backend</span>: [
+                <span class="string">"Java"</span>, <span class="string">"PHP"</span>, <span class="string">"PostgreSQL"</span>,
+                <span class="string">"MySQL"</span>, <span class="string">"MongoDB"</span>
+              ],
+              <span class="property">softSkills</span>: [
+                <span class="string">"Teamwork"</span>, <span class="string">"Responsibility"</span>,
+                <span class="string">"Communication"</span>, <span class="string">"Integrity"</span>
+              ],
+              <span class="property">available</span>: <span class="boolean">true</span>
+            </pre>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="info-personal">
+            <h1 class="titles">Iván Almestro</h1>
+            <h4 class="titles">Full Stack Developer</h4>
+            <p class="description">
+                Soy desarrollador Full Stack con experiencia en proyectos personales de frontend (HTML/CSS/JS) y frameworks como Angular. Me gusta construir interfaces limpias y funcionales.
+            </p>
+
+        </div>
+    </section>
+
 
     <h3 id="title-proy">Proyectos:</h3>
+
     <div class ="container">
         <div class = "card">
             <img src = "img/Proyecto1.png">
@@ -51,7 +104,7 @@
 
         <div class = "card">
             <img src = "img/Proyecto2.png">
-            <h4>Tienda De Ropa</h4>
+            <h4>Tienda De Ropa</h4>*
             <p>Desarrollo en Angular de lo que seria el funcionamiento de una tienda básica, con su carrito y prendas para agregar al carro</p>
             <a href="#">Ver Más</a>
         </div>
