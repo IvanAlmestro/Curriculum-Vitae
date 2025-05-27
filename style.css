@@ -4,22 +4,28 @@ html, body {
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
-    background: linear-gradient(135deg, #13131e, #161626) fixed;
+    background: linear-gradient(120deg, rgba(23, 26, 56, 0.9), #090a15) fixed;
     color: #e4e4e4;
     font-family: "Roboto", sans-serif;
     font-weight: 100;
     text-align: center;
 }
 
+
 /* Títulos */
 .titles {
-    font-family: 'Open Sans', sans-serif;
+
     text-align: center;
-    color: white;
+    color: #d5d4de;
+    font-size: 4em;
 }
 h1.titles {
-    font-weight: 1000;
-    margin-top: 33px;
+    font-weight: 500;
+    margin-top: 90px;
+
+}
+h4.titles {
+    font-size: 2em;
 }
 #title-proy {
     text-align: center;
@@ -34,7 +40,7 @@ h1.titles {
     justify-content: center;
     align-items: center;
     gap: 40px;
-    margin-top: 90px;
+    margin-top: 120px;
 }
 
 .img-social{
@@ -61,7 +67,7 @@ h1.titles {
 #btn-cv {
     width: 130px;
     padding: 5px 10px;
-    background-color: gray;
+    background-color: #212841;
     border-radius: 10px;
     border: solid black 1px;
     color: white;
@@ -73,15 +79,16 @@ h1.titles {
 }
 
 .info-personal {
-    max-width: 600px;
+
     padding: 0 10px;
 }
 
 .description {
-    max-width: 600px;
+
     margin: 20px auto;
-    font-size: 16px;
-    color: #ccc;
+    max-width: 800px;
+    font-size: 26px;
+    color: #E6DB74;
     line-height: 1.6;
 }
 
@@ -132,6 +139,7 @@ h1.titles {
 .container .card:nth-child(2) { animation-delay: 0.2s; }
 .container .card:nth-child(3) { animation-delay: 0.4s; }
 
+
 /* Animaciones */
 @keyframes fadeInUp {
     to {
@@ -139,6 +147,7 @@ h1.titles {
         transform: translateY(0);
     }
 }
+
 .code-box {
     background-color: #161b22;
     margin-top: 10px;
